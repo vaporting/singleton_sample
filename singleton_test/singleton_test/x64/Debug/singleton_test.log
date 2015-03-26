@@ -1,0 +1,25 @@
+﻿已經開始建置於 2015/2/6 上午 10:05:43。
+     1>節點 2 (build 目標) 上的專案 "D:\work\VS_project\singleton_test\singleton_test\singleton_test.vcxproj"。
+     1>PrepareForBuild:
+         正在建立目錄 "D:\work\VS_project\singleton_test\x64\Debug\"。
+       InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "x64\Debug\singleton_test.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp output_log.cpp
+         output_log.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\VS_project\singleton_test\x64\Debug\singleton_test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\singleton_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\VS_project\singleton_test\x64\Debug\singleton_test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\VS_project\singleton_test\x64\Debug\singleton_test.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\output_log.obj
+         singleton_test.vcxproj -> D:\work\VS_project\singleton_test\x64\Debug\singleton_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\work\VS_project\singleton_test\x64\Debug\singleton_test.exe;#1" /manifest x64\Debug\singleton_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "x64\Debug\singleton_test.unsuccessfulbuild"。
+         正在變更時間戳記 "x64\Debug\singleton_test.lastbuildstate"。
+     1>專案 "D:\work\VS_project\singleton_test\singleton_test\singleton_test.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.62
